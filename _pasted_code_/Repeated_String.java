@@ -18,7 +18,6 @@ public class Repeated_String {
 		// TODO Auto-generated method stub
 		HashSet<Character> hash = new HashSet<>();
 		int length = arr.length;
-
 		for (int c = 0; c < length; c++) {
 			char Character = arr[c];
 			if (hash.contains(Character))
@@ -27,5 +26,6 @@ public class Repeated_String {
 				hash.add(Character);
 		}
 		return 0;
+
 	}
 }
