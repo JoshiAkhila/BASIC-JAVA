@@ -4,9 +4,9 @@ public class DisplayStarts {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		int n = 7;
+		int n = 8;
 		for (int i = 1; i <= n; i++) {
-			for (int j = 7; j > i; j--) {
+			for (int j = n; j > i; j--) {
 				System.out.print("*");
 			}
 			System.out.println();
