@@ -2,7 +2,7 @@ package _pasted_code_;
 
 import java.util.Scanner;
 
-public class LoopSum {
+public class SumOfSquare {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -12,10 +12,11 @@ public class LoopSum {
 
 		int Sum = 0;
 		while (integer) {
-			int value = scan.nextInt();
-			Sum = Sum + value;
-			System.out.println("Sum = "+ Sum);
-			System.out.println("Enter an integer");
+			int n = scan.nextInt();
+			int square = n * n;
+			Sum = Sum + square;
+			System.out.println("Sum = " + Sum);
+
 		}
 
 	}
