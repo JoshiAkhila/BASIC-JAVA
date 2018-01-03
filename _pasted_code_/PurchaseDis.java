@@ -9,10 +9,10 @@ public class PurchaseDis {
 		Scanner scan = new Scanner(System.in);
 
 		System.out.println("Enter the ItemPrice");
-		double ItemPrice = scan.nextDouble();
+		double ItemPrice = scan.nextDouble(); // in $
 
 		if (ItemPrice > 10) {
-			double DiscountPrice = ItemPrice - (ItemPrice * 5) / 100; 
+			double DiscountPrice = ItemPrice - (ItemPrice * 5) / 100;  // in $
 			System.out.println("Discount(5%) price for an Item is: " + DiscountPrice);
 		} else
 			System.out.println("Discont does not apply");
